@@ -35,11 +35,11 @@
         text-align: center;
 
         &-content {
-          .rts-university-icon {
+          .rts-school-icon {
             margin-bottom: 30px;
           }
 
-          .rts-university-estd {
+          .rts-school-estd {
             position: relative;
             display: inline-block;
             margin-bottom: 20px;
@@ -145,11 +145,11 @@
 
       .rts-slider {
         &-content {
-          .rts-university-icon {
+          .rts-school-icon {
             // opacity: 1;
           }
 
-          .rts-university-estd {
+          .rts-school-estd {
             // opacity: 1;
             span {
               color: var(--rt-white);
@@ -298,14 +298,14 @@
       opacity: 0;
     }
 
-    .rts-university-icon {
+    .rts-school-icon {
       animation: none;
       transition-delay: 0.8s;
       opacity: 0;
       display: block;
     }
 
-    .rts-university-estd {
+    .rts-school-estd {
       animation: none;
       transition-delay: 1s;
       opacity: 0;
@@ -347,14 +347,14 @@
         font-family: var(--font-primary);
       }
 
-      .rts-university-icon {
+      .rts-school-icon {
         animation: slideInUp3 1s;
         animation-delay: 0.8s;
         display: block;
         opacity: 1;
       }
 
-      .rts-university-estd {
+      .rts-school-estd {
         animation: fadeInUp 1s;
         animation-delay: 1s;
         opacity: 1;
