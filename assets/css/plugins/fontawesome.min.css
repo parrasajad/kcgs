@@ -2267,7 +2267,7 @@
 .fa-building-columns:before,
 .fa-institution:before,
 .fa-museum:before,
-.fa-university:before {
+.fa-school:before {
     content: "\f19c"
 }
 
@@ -17232,12 +17232,12 @@
 .fa-duotone.fa-building-columns:after,
 .fa-duotone.fa-institution:after,
 .fa-duotone.fa-museum:after,
-.fa-duotone.fa-university:after,
+.fa-duotone.fa-school:after,
 .fad.fa-bank:after,
 .fad.fa-building-columns:after,
 .fad.fa-institution:after,
 .fad.fa-museum:after,
-.fad.fa-university:after {
+.fad.fa-school:after {
     content: "\f19c\f19c"
 }
 

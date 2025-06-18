@@ -53,7 +53,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             // get host url
             $scheme = $_SERVER['REQUEST_SCHEME']; 
             $host = $_SERVER['HTTP_HOST']; 
-            $theme_directory = 'unipix'; // Your theme directory name
+            $theme_directory = 'leeep'; // Your theme directory name
             $full_url = $scheme . '://' . $host . '/' . $theme_directory . '/' . $file_path;
 
             // Prepare email

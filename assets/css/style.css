@@ -17319,16 +17319,16 @@ body.index-sc h1, body.index-sc h2, body.index-sc h3, body.index-sc h4, body.ind
 .rts-hero-slider-active .swiper-slide .rts-slider {
   text-align: center;
 }
-.rts-hero-slider-active .swiper-slide .rts-slider-content .rts-university-icon {
+.rts-hero-slider-active .swiper-slide .rts-slider-content .rts-school-icon {
   margin-bottom: 30px;
 }
-.rts-hero-slider-active .swiper-slide .rts-slider-content .rts-university-estd {
+.rts-hero-slider-active .swiper-slide .rts-slider-content .rts-school-estd {
   position: relative;
   display: inline-block;
   margin-bottom: 20px;
   line-height: 100%;
 }
-.rts-hero-slider-active .swiper-slide .rts-slider-content .rts-university-estd::after {
+.rts-hero-slider-active .swiper-slide .rts-slider-content .rts-school-estd::after {
   position: absolute;
   content: "";
   left: -95%;
@@ -17337,7 +17337,7 @@ body.index-sc h1, body.index-sc h2, body.index-sc h3, body.index-sc h4, body.ind
   width: 80px;
   background: var(--rt-white);
 }
-.rts-hero-slider-active .swiper-slide .rts-slider-content .rts-university-estd::before {
+.rts-hero-slider-active .swiper-slide .rts-slider-content .rts-school-estd::before {
   position: absolute;
   content: "";
   right: -95%;
@@ -17347,7 +17347,7 @@ body.index-sc h1, body.index-sc h2, body.index-sc h3, body.index-sc h4, body.ind
   width: 80px;
   background: var(--rt-white);
 }
-.rts-hero-slider-active .swiper-slide .rts-slider-content .rts-university-estd span {
+.rts-hero-slider-active .swiper-slide .rts-slider-content .rts-school-estd span {
   font-size: 20px;
   font-weight: 700;
   font-family: var(--font-primary);
@@ -17415,7 +17415,7 @@ body.index-sc h1, body.index-sc h2, body.index-sc h3, body.index-sc h4, body.ind
 .rts-hero-slider-active .swiper-slide-active .rts-slider-bg {
   transform: scale(1.1);
 }
-.rts-hero-slider-active .swiper-slide-active .rts-slider-content .rts-university-estd span {
+.rts-hero-slider-active .swiper-slide-active .rts-slider-content .rts-school-estd span {
   color: var(--rt-white);
   font-size: 20px;
   font-weight: 700;
@@ -17538,13 +17538,13 @@ body.index-sc h1, body.index-sc h2, body.index-sc h3, body.index-sc h4, body.ind
   display: block;
   opacity: 0;
 }
-.rts-hero-slider .rts-slider-content .rts-university-icon {
+.rts-hero-slider .rts-slider-content .rts-school-icon {
   animation: none;
   transition-delay: 0.8s;
   opacity: 0;
   display: block;
 }
-.rts-hero-slider .rts-slider-content .rts-university-estd {
+.rts-hero-slider .rts-slider-content .rts-school-estd {
   animation: none;
   transition-delay: 1s;
   opacity: 0;
@@ -17579,13 +17579,13 @@ body.index-sc h1, body.index-sc h2, body.index-sc h3, body.index-sc h4, body.ind
   text-transform: capitalize;
   font-family: var(--font-primary);
 }
-.rts-hero-slider .swiper-slide-active .rts-slider-content .rts-university-icon {
+.rts-hero-slider .swiper-slide-active .rts-slider-content .rts-school-icon {
   animation: slideInUp3 1s;
   animation-delay: 0.8s;
   display: block;
   opacity: 1;
 }
-.rts-hero-slider .swiper-slide-active .rts-slider-content .rts-university-estd {
+.rts-hero-slider .swiper-slide-active .rts-slider-content .rts-school-estd {
   animation: fadeInUp 1s;
   animation-delay: 1s;
   opacity: 1;
@@ -17709,7 +17709,7 @@ body.index-sc h1, body.index-sc h2, body.index-sc h3, body.index-sc h4, body.ind
   }
 }
 .banner .banner__content--title {
-  font-size: 120px;
+  font-size: 110px;
   font-weight: 400;
   text-transform: uppercase;
   color: var(--rt-white);
@@ -17739,8 +17739,8 @@ body.index-sc h1, body.index-sc h2, body.index-sc h3, body.index-sc h4, body.ind
 .banner .banner__content--circle {
   position: absolute;
   display: inline-block;
-  top: 57%;
-  left: 29%;
+  top: 45%;
+  left: 25%;
 }
 @media screen and (max-width: 992px) {
   .banner .banner__content--circle {
@@ -18622,7 +18622,7 @@ body.index-sc h1, body.index-sc h2, body.index-sc h3, body.index-sc h4, body.ind
   }
 }
 
-.rts-about-university .rts-section {
+.rts-about-school .rts-section {
   display: flex;
   justify-content: space-between;
   margin-bottom: 50px;
@@ -18631,17 +18631,17 @@ body.index-sc h1, body.index-sc h2, body.index-sc h3, body.index-sc h4, body.ind
   padding-bottom: 50px;
 }
 @media screen and (max-width: 768px) {
-  .rts-about-university .rts-section {
+  .rts-about-school .rts-section {
     flex-wrap: wrap;
     gap: 30px;
   }
 }
-.rts-about-university .rts-section-description {
+.rts-about-school .rts-section-description {
   border-left: 1px solid #C0C0C0;
   padding-left: 45px;
 }
 @media screen and (max-width: 768px) {
-  .rts-about-university .rts-section-description {
+  .rts-about-school .rts-section-description {
     padding-left: 0;
     border: none;
   }
