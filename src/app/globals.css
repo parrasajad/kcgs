@@ -1,0 +1,69 @@
+@import "tailwindcss";
+@source "../components";
+
+/* ============================================
+   KCGS Tailwind Theme — Brand Design Tokens
+   Mapped from style.css CSS variables for
+   gradual migration to Tailwind utilities.
+   ============================================ */
+
+@theme inline {
+  /* ---- Brand Colors ---- */
+  --color-primary: #4150B6;
+  --color-primary-dark: #303E9F;
+  --color-primary-darker: #283593;
+  --color-primary-light: #5C6BC0;
+  --color-primary-lightest: #1A237E;
+
+  --color-secondary: #110C2D;
+  --color-accent: #C9A227;
+  --color-hover: #C9A227;
+
+  --color-heading: #262626;
+  --color-body: #737477;
+  --color-border: #D9D9D9;
+  --color-line: #eeeeee;
+  --color-light-white: #f6f6f6;
+  --color-footer: #181818;
+
+  --color-background: #ffffff;
+  --color-foreground: #171717;
+
+  /* ---- Status Colors ---- */
+  --color-success: #3EB75E;
+  --color-danger: #FF0003;
+  --color-warning: #FF8F3C;
+  --color-info: #1BA2DB;
+
+  /* ---- Social Colors ---- */
+  --color-facebook: #3B5997;
+  --color-twitter: #1BA1F2;
+  --color-youtube: #ED4141;
+  --color-linkedin: #0077B5;
+  --color-instagram: #C231A1;
+
+  /* ---- Fonts ---- */
+  --font-sans: "Inter", sans-serif;
+  --font-display: "Canela trial", serif;
+  --font-hind: "Hind", sans-serif;
+  --font-rufina: "Rufina", serif;
+  --font-mono: var(--font-geist-mono);
+
+  /* ---- Font Sizes ---- */
+  --text-h1: 64px;
+  --text-h2: 48px;
+  --text-h3: 40px;
+  --text-h4: 36px;
+  --text-h5: 24px;
+  --text-h6: 20px;
+  --text-lg: 24px;
+  --text-md: 20px;
+  --text-base: 16px;
+  --text-sm: 14px;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+}
