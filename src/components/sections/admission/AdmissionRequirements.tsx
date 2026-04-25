@@ -3,7 +3,7 @@ export default function AdmissionRequirements() {
         <>
             <div className="admission-content-top">
                 <h3 className="rts-section-title">
-                    First-Year Applicants
+                    New Student Admissions
                 </h3>
 
                 <div className="admission-big-thumb">
@@ -11,70 +11,58 @@ export default function AdmissionRequirements() {
                 </div>
 
                 <div className="requirement-deadline">
-                    <h3 className="rts-section-title">Requirements and Deadlines</h3>
+                    <h3 className="rts-section-title">General Requirements</h3>
                     <div className="requirement-deadline__content">
                         <ul>
-                            <li className="single-requirement">$90 nonrefundable application fee or fee waiver
-                                request</li>
-                            <li className="single-requirement">ACT or SAT test scores (test optional)</li>
-                            <li className="single-requirement">School Report form and counselor letter of
-                                recommendation </li>
-                            <li className="single-requirement">Official transcript(s) or academic results</li>
-                            <li className="single-requirement">Letters of recommendation from two teachers</li>
-                            <li className="single-requirement">Midyear transcript (due by February 15)</li>
-                            <li className="single-requirement">$90 nonrefundable application fee or fee waiver
-                                request</li>
-                            <li className="single-requirement">ACT or SAT test scores (test optional)</li>
-                            <li className="single-requirement">School Report form and counselor letter of
-                                recommendation </li>
-                            <li className="single-requirement">Official transcript(s) or academic results</li>
-                            <li className="single-requirement">Letters of recommendation from two teachers</li>
-                            <li className="single-requirement">Midyear transcript (due by February 15)</li>
+                            <li className="single-requirement">Completed Application Form</li>
+                            <li className="single-requirement">Copy of Birth Certificate / Age Proof</li>
+                            <li className="single-requirement">Previous School Records / Report Card (if applicable)</li>
+                            <li className="single-requirement">Transfer Certificate from previous school</li>
+                            <li className="single-requirement">Passport-size photographs of the child and parents</li>
+                            <li className="single-requirement">Parent / Guardian ID Proof (Aadhaar / Passport)</li>
+                            <li className="single-requirement">Immunization and Medical Fitness Certificate</li>
                         </ul>
                     </div>
                 </div>
                 <div className="application-deadline">
-                    <h3 className="rts-section-title">Application Deadlines</h3>
+                    <h3 className="rts-section-title">Admission Timeline</h3>
                     <div className="application-deadline__content">
                         <div className="application-deadline__content--table">
                             <table className="table">
                                 <thead className="table-theme">
                                     <tr>
                                         <td>Event</td>
-                                        <td>Restrictive Early Action</td>
-                                        <td>Regular Decision</td>
+                                        <td>Phase 1 (Early)</td>
+                                        <td>Phase 2 (Regular)</td>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>Standard Application Deadline</td>
-                                        <td>November 1</td>
-                                        <td>January 10</td>
+                                        <td>Registration Begins</td>
+                                        <td>October 15</td>
+                                        <td>January 15</td>
                                     </tr>
                                     <tr>
-                                        <td>Notification of Missing Documents</td>
-                                        <td>Mid-November</td>
-                                        <td>Mid-February</td>
+                                        <td>Last Date to Apply</td>
+                                        <td>December 10</td>
+                                        <td>March 10</td>
                                     </tr>
                                     <tr>
-                                        <td>Decision Released By</td>
+                                        <td>Interaction / Assessment</td>
                                         <td>Mid-December</td>
-                                        <td>Early April</td>
+                                        <td>Mid-March</td>
                                     </tr>
                                     <tr>
-                                        <td>Student Reply Date</td>
-                                        <td>May 1</td>
-                                        <td>May 1</td>
+                                        <td>Classes Begin</td>
+                                        <td>March / April</td>
+                                        <td>March / April</td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
                         <p> Kashmir Cambridge reserves the right to evaluate an application and render a final
-                            decision even if all pieces of the application have not been received.</p>
-                        <p className="w-95 mx-0">Applicants are limited to a total of three applications for
-                            undergraduate admission, whether for first-year admission, transfer admission or a
-                            <br />combination of both. If you have submitted fewer than three applications to
-                            Kashmir Cambridge, you may reapply.
+                            decision based on seat availability and assessment results.</p>
+                        <p className="w-95 mx-0">If you have any questions regarding the application process, please reach out to our admission office directly. We encourage early applications as seats fill up quickly.
                         </p>
                     </div>
                 </div>

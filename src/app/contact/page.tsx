@@ -18,7 +18,6 @@ export default function ContactPage() {
   return (
     <>
       <Header />
-      <Breadcrumb title="Contact Us" current="Contact" />
       <ContactForm />
       <MapSection />
       <Footer />

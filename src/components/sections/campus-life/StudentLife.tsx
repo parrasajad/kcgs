@@ -1,63 +1,88 @@
 export default function StudentLife() {
-    return (
-        <div className="rts-campus-section rts-section-padding">
-            <div className="container">
-                <div className="row">
-                    <div className="rts-section rt-center mb--45">
-                        <h3 className="rts-section-title">Student Life</h3>
-                    </div>
-                </div>
-                <div className="row g-5">
-                    {/* single item */}
-                    <div className="col-lg-4 col-md-6 col-sm-6">
-                        <div className="single-item">
-                            <div className="single-item__content">
-                                <div className="single-item__image">
-                                    <img src="/assets/images/campus/01.jpg" alt="item-image" />
-                                </div>
-                                <div className="single-item__meta">
-                                    <h5 className="item-title"><a href="#">Student Affairs</a></h5>
-                                    <p className="item-description">Comprising more than 25 offices & centers, Student Affairs
-                                        provides a broad of this services.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    {/* single item end */}
-                    {/* single item */}
-                    <div className="col-lg-4 col-md-6 col-sm-6">
-                        <div className="single-item">
-                            <div className="single-item__content">
-                                <div className="single-item__image">
-                                    <img src="/assets/images/campus/02.jpg" alt="item-image" />
-                                </div>
-                                <div className="single-item__meta">
-                                    <h5 className="item-title"><a href="#">Housing & Dining</a></h5>
-                                    <p className="item-description">Nearly all undergraduates and more than 65% graduate
-                                        students reside in 81 merit undergraduate</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    {/* single item end */}
-                    {/* single item */}
-                    <div className="col-lg-4 col-md-6 col-sm-6">
-                        <div className="single-item">
-                            <div className="single-item__content">
-                                <div className="single-item__image">
-                                    <img src="/assets/images/campus/03.jpg" alt="item-image" />
-                                </div>
-                                <div className="single-item__meta">
-                                    <h5 className="item-title"><a href="#">Engagement & Diversity</a></h5>
-                                    <p className="item-description">Growing up in the Chicago suburbs, Jess found video games to
-                                        be a rich portal to alternative.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    {/* single item end */}
-                </div>
-            </div>
+  return (
+    <div className="rts-campus-section rts-section-padding">
+      <div className="container">
+        <div className="row">
+          <div className="rts-section rt-center mb--45">
+            <h3 className="rts-section-title">Student Life</h3>
+          </div>
         </div>
-    );
+        <div className="row g-5">
+          {/* single item */}
+          <div className="col-lg-4 col-md-6 col-sm-6">
+            <div className="single-item">
+              <div className="single-item__content">
+                <div className="single-item__image">
+                  <img
+                    src="/assets/images/campus-life/student-life.webp"
+                    alt="Academic Excellence"
+                    className="w-full h-[250px] object-cover"
+                  />
+                </div>
+                <div className="single-item__meta">
+                  <h5 className="item-title">
+                    <a href="#">Academic Excellence</a>
+                  </h5>
+                  <p className="item-description">
+                    Our dedicated faculty and modern curriculum ensure students
+                    receive a world-class education tailored for future success.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* single item end */}
+          {/* single item */}
+          <div className="col-lg-4 col-md-6 col-sm-6">
+            <div className="single-item">
+              <div className="single-item__content">
+                <div className="single-item__image">
+                  <img
+                    src="/assets/images/campus-life/student-campus.webp"
+                    alt="Vibrant Campus"
+                    className="w-full h-[250px] object-cover"
+                  />
+                </div>
+                <div className="single-item__meta">
+                  <h5 className="item-title">
+                    <a href="#">Vibrant Campus</a>
+                  </h5>
+                  <p className="item-description">
+                    Experience a safe and inspiring environment with modern
+                    facilities designed to foster creativity, collaboration, and
+                    student growth.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* single item end */}
+          {/* single item */}
+          <div className="col-lg-4 col-md-6 col-sm-6">
+            <div className="single-item">
+              <div className="single-item__content">
+                <div className="single-item__image">
+                  <img
+                    src="/assets/images/campus-life/eco-club-summer-camp.webp"
+                    alt="Cultural Engagement"
+                    className="w-full h-[250px] object-cover"
+                  />
+                </div>
+                <div className="single-item__meta">
+                  <h5 className="item-title">
+                    <a href="#">Eco Club & Summer Camps</a>
+                  </h5>
+                  <p className="item-description">
+                    Engaging students in environmental conservation and outdoor
+                    learning through our active Eco Club .
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* single item end */}
+        </div>
+      </div>
+    </div>
+  );
 }

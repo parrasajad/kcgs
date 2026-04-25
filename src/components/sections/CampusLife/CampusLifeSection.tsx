@@ -15,7 +15,10 @@ export default function CampusLifeSection() {
                   contribute to our dynamic academic community.
                 </p>
                 <div className="campus__vector">
-                  <img src="/assets/images/campus/campus__vector.svg" alt="" />
+                  <img
+                    src="/assets/images/campus-life/campus__vector.svg"
+                    alt=""
+                  />
                 </div>
               </div>
             </div>
@@ -25,7 +28,7 @@ export default function CampusLifeSection() {
                 <div className="campus__life--single">
                   <div className="campus__life--single--bg">
                     <img
-                      src="/assets/images/campus/campus__life__bg__1.jpg"
+                      src="/assets/images/campus-life/student-life.webp"
                       alt=""
                     />
                   </div>
@@ -51,7 +54,7 @@ export default function CampusLifeSection() {
                 <div className="campus__life--single">
                   <div className="campus__life--single--bg">
                     <img
-                      src="/assets/images/campus/campus__life__bg__2.jpg"
+                      src="/assets/images/campus-life/art-culture.webp"
                       alt=""
                     />
                   </div>
@@ -77,14 +80,14 @@ export default function CampusLifeSection() {
                 <div className="campus__life--single">
                   <div className="campus__life--single--bg">
                     <img
-                      src="/assets/images/campus/campus__life__bg__3.jpg"
+                      src="/assets/images/campus-life/athletics.webp"
                       alt=""
                     />
                   </div>
                   <div className="campus__life--single--flex">
                     <div className="campus__life--single--content">
                       <h4 className="campus__life--single--title">
-                        <a href="/athletics">Athletics</a>
+                        <a href="/campus-life">Sports</a>
                       </h4>
                       <p className="campus__life--single--description">
                         Building a vibrant community of creative and
@@ -92,7 +95,7 @@ export default function CampusLifeSection() {
                       </p>
                     </div>
                     <div className="campus__life--single--button">
-                      <a href="/athletics">
+                      <a href="/campus-life">
                         <i className="fa-sharp fa-regular fa-arrow-right"></i>
                       </a>
                     </div>

@@ -49,45 +49,48 @@ export default function ApplicationForm() {
                             </div>
                         </div>
                         <div className="single-form-part">
-                            <h5 className="form-title">Academic Information</h5>
+                            <h5 className="form-title">Previous School Information</h5>
                             <div className="single-input">
                                 <div className="single-input-item">
-                                    <label htmlFor="cname">Collage Name</label>
-                                    <input id="cname" type="text" placeholder="Collage Name" />
+                                    <label htmlFor="cname">Previous School Name</label>
+                                    <input id="cname" type="text" placeholder="School Name" />
                                 </div>
                                 <div className="single-input-item">
-                                    <label htmlFor="gpa">Enter your GPA</label>
-                                    <input id="gpa" type="text" placeholder="Enter your GPA" />
+                                    <label htmlFor="grade">Last Grade Attended</label>
+                                    <input id="grade" type="text" placeholder="e.g. Grade 4" />
                                 </div>
                             </div>
                             <div className="single-input">
                                 <div className="single-input-item">
-                                    <label htmlFor="cname2">Collage Name</label>
-                                    <input id="cname2" type="text" placeholder="current college" />
+                                    <label htmlFor="year">Year of Leaving</label>
+                                    <input id="year" type="text" placeholder="e.g. 2023" />
                                 </div>
                                 <div className="single-input-item">
-                                    <label htmlFor="gpa2">Enter your GPA</label>
-                                    <input type="text" id="gpa2" placeholder="Current GPA" />
+                                    <label htmlFor="board">Board (if applicable)</label>
+                                    <input type="text" id="board" placeholder="e.g. CBSE / State Board" />
                                 </div>
                             </div>
                         </div>
                         <div className="single-form-part">
-                            <h5 className="form-title">Financial Information</h5>
+                            <h5 className="form-title">Parent / Guardian Details</h5>
                             <div className="single-input">
                                 <div className="single-input-item">
-                                    <label htmlFor="income">Household Income</label>
-                                    <select name="income" id="income">
-                                        <option value="*">Less then $1k</option>
-                                        <option value="*">Less then $2k</option>
-                                        <option value="*">Less then $3k</option>
-                                    </select>
+                                    <label htmlFor="fname_parent">Father's Name</label>
+                                    <input type="text" id="fname_parent" placeholder="Father's Full Name" />
                                 </div>
                                 <div className="single-input-item">
-                                    <label htmlFor="yes">applying for need-based financial aid</label>
-                                    <select name="yes" id="yes">
-                                        <option value="*">yes</option>
-                                        <option value="*">no</option>
-                                    </select>
+                                    <label htmlFor="foccupation">Father's Occupation</label>
+                                    <input type="text" id="foccupation" placeholder="Occupation" />
+                                </div>
+                            </div>
+                            <div className="single-input">
+                                <div className="single-input-item">
+                                    <label htmlFor="mname_parent">Mother's Name</label>
+                                    <input type="text" id="mname_parent" placeholder="Mother's Full Name" />
+                                </div>
+                                <div className="single-input-item">
+                                    <label htmlFor="moccupation">Mother's Occupation</label>
+                                    <input type="text" id="moccupation" placeholder="Occupation" />
                                 </div>
                             </div>
 
@@ -99,7 +102,7 @@ export default function ApplicationForm() {
                                 information may result in the disqualification of my application.
                             </p>
                             <div className="single-input-item">
-                                <label htmlFor="sub">Application Submission:</label>
+                                <label htmlFor="sub">Upload Birth Certificate / Previous Record:</label>
                                 <input type="file" id="sub" />
                             </div>
 

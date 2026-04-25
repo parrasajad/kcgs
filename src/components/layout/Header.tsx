@@ -4,14 +4,30 @@ import { useNavbar } from "@/hooks/useNavbar";
 import Image from "next/image";
 import Link from "next/link";
 import { Icon } from "@iconify/react";
+import { usePathname } from "next/navigation";
+import { useState, useEffect } from "react";
 
 export default function Header() {
   const { toggleSidebar } = useNavbar();
+  const pathname = usePathname();
+  const isHomePage = pathname === "/";
+  const [isSticky, setIsSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsSticky(window.scrollY > 100);
+    };
+    window.addEventListener("scroll", handleScroll);
+    handleScroll(); // initialize on mount
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <>
       {/* header area start */}
-      <header className="header header__sticky v__1">
+      <header
+        className={`header header__sticky v__1 ${!isHomePage ? "nav-links-dark" : ""}`}
+      >
         <div className="container-fluid">
           <div className="row">
             <div className="col-xl-12">
@@ -19,7 +35,11 @@ export default function Header() {
                 <div className="header__logo">
                   <Link href="/" className="header__logo--link">
                     <Image
-                      src="/assets/images/header/kc-logo.svg"
+                      src={
+                        !isHomePage || isSticky
+                          ? "/assets/images/header/kc-logo-black.svg"
+                          : "/assets/images/header/kc-logo.svg"
+                      }
                       alt="leeep"
                       width={290}
                       height={220}
@@ -48,36 +68,28 @@ export default function Header() {
                           </Link>
                           <ul className="submenu sub__style">
                             <li>
-                              <Link href="/#about">About</Link>
+                              <Link href="/about">About</Link>
                             </li>
                             <li>
-                              <Link href="/#campus-life">Facilities</Link>
+                              <Link href="/facilities">Facilities</Link>
                             </li>
                           </ul>
                         </li>
                         <li className="navigation__menu--item">
                           <Link
-                            href="/#academics"
+                            href="/academics"
                             className="navigation__menu--item__link"
                           >
                             Academics
                           </Link>
                         </li>
-                        <li className="navigation__menu--item has-child has-arrow">
+                        <li className="navigation__menu--item">
                           <Link
                             href="/updates"
                             className="navigation__menu--item__link"
                           >
                             Updates
                           </Link>
-                          <ul className="submenu sub__style">
-                            <li>
-                              <Link href="/updates#news">News</Link>
-                            </li>
-                            <li>
-                              <Link href="/updates#events">Events</Link>
-                            </li>
-                          </ul>
                         </li>
 
                         <li className="navigation__menu--item">
@@ -90,17 +102,6 @@ export default function Header() {
                         </li>
                       </ul>
                     </nav>
-                  </div>
-                </div>
-                <div className="header__right">
-                  <div className="header__right--item">
-                    <div
-                      id="menu-btn"
-                      className="menu__trigger cursor-pointer"
-                      onClick={toggleSidebar}
-                    >
-                      <Icon icon="lucide:menu" className="w-8 h-8 text-white" />
-                    </div>
                   </div>
                 </div>
               </div>

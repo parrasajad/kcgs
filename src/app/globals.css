@@ -1,22 +1,23 @@
 @import "tailwindcss";
 @source "../components";
 
-/* ============================================
-   KCGS Tailwind Theme — Brand Design Tokens
-   Mapped from style.css CSS variables for
-   gradual migration to Tailwind utilities.
-   ============================================ */
-
 @theme inline {
   /* ---- Brand Colors ---- */
-  --color-primary: #4150B6;
-  --color-primary-dark: #303E9F;
-  --color-primary-darker: #283593;
-  --color-primary-light: #5C6BC0;
-  --color-primary-lightest: #1A237E;
+  --color-primary-50: #f7efd2;
+  --color-primary-100: #eedfa6;
+  --color-primary-200: #e5cf79;
+  --color-primary-300: #dcbc5a;
+  --color-primary: #cba73d;
+  --color-primary-400: #cba73d;
+  --color-primary-500: #b8932f;
+  --color-primary-600: #9e7f27;
+  --color-primary-700: #7c631f;
+  --color-primary-800: #5a4716;
+
+
 
   --color-secondary: #110C2D;
-  --color-accent: #C9A227;
+  --color-accent: #cba73d;
   --color-hover: #C9A227;
 
   --color-heading: #262626;
@@ -28,6 +29,8 @@
 
   --color-background: #ffffff;
   --color-foreground: #171717;
+  --color-black: #000000;
+  --color-white: #ffffff;
 
   /* ---- Status Colors ---- */
   --color-success: #3EB75E;
@@ -66,4 +69,9 @@ body {
   background: var(--color-background);
   color: var(--color-foreground);
   font-family: var(--font-sans);
+}
+
+.nav-links-dark .navigation__menu--item__link,
+.nav-links-dark .navigation__menu--item.has-arrow::before {
+  color: #000000 !important;
 }

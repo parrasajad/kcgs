@@ -11,7 +11,7 @@ export default function ContactForm() {
               className="h-100 p-5 d-flex flex-column justify-content-between"
               style={{
                 background:
-                  "linear-gradient(145deg, #283593 0%, #4150B6 50%, #303E9F 100%)",
+                  "linear-gradient(145deg, #b8932f 0%, #cba73d 50%, #9e7f27 100%)",
                 borderRadius: "16px",
                 color: "#fff",
                 minHeight: "520px",
@@ -239,13 +239,12 @@ export default function ContactForm() {
                 style={{ borderTop: "1px solid rgba(255,255,255,0.15)" }}
               >
                 {[
-                  { icon: "fa-brands fa-facebook", href: "#" },
-                  { icon: "fa-brands fa-instagram", href: "#" },
+                  { icon: "fa-brands fa-facebook", href: "https://www.facebook.com/people/Kashmir-Cambridge-Group-Of-Schools/61560041427806/" },
+                  { icon: "fa-brands fa-instagram", href: "https://www.instagram.com/kashmircambridge?igsh=djhsZjU5cnZiZzEz" },
                   {
                     icon: "fa-brands fa-youtube",
-                    href: "https://www.youtube.com/@KashmirCambridgegroupofsch-y6h/videos",
+                    href: "https://www.youtube.com/@kashmircambridgegroupofsch-y6h",
                   },
-                  { icon: "fa-brands fa-linkedin", href: "#" },
                 ].map((s, i) => (
                   <a
                     key={i}
@@ -278,7 +277,7 @@ export default function ContactForm() {
               style={{
                 background: "#fff",
                 borderRadius: "16px",
-                boxShadow: "0 4px 30px rgba(65,80,182,0.08)",
+                boxShadow: "0 4px 30px rgba(203,167,61,0.15)",
                 height: "100%",
               }}
             >
@@ -505,7 +504,7 @@ export default function ContactForm() {
                       type="submit"
                       style={{
                         background:
-                          "linear-gradient(135deg, #4150B6 0%, #283593 100%)",
+                          "linear-gradient(135deg, #cba73d 0%, #b8932f 100%)",
                         color: "#fff",
                         border: "none",
                         padding: "14px 36px",

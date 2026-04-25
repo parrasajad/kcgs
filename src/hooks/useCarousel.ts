@@ -4,6 +4,7 @@ import { useEffect, useRef } from "react";
 
 interface CarouselOptions {
     slidesPerView?: number;
+    spaceBetween?: number;
     loop?: boolean;
     speed?: number;
     navigation?: {
@@ -13,7 +14,7 @@ interface CarouselOptions {
     autoplay?: {
         delay?: number;
     };
-    breakpoints?: Record<number, { slidesPerView: number }>;
+    breakpoints?: Record<number, { slidesPerView: number; spaceBetween?: number }>;
 }
 
 export function useCarousel(options: CarouselOptions) {

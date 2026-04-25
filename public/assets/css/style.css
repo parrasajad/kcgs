@@ -18,10 +18,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&display=swap");
 
 :root {
-  --rt-theme: #09A24F;
-  --rt-primary: #4150B6;
-  --rt-primary-1: #303E9F;
-  --rt-primary-2: #283593;
+  --rt-primary: #cba73d;
+  --rt-primary-1: #eedfa6;
+  --rt-primary-2: #9e7f27;
   --rt-secondary: #110C2D;
   --rt-footer: #181818;
   --rt-body: #737477;
@@ -16648,7 +16647,7 @@ body.index-sc h6 {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  object-position: top center;
+  object-position: center;
 }
 
 .campus__life--single:hover .campus__life--single--title a {

@@ -49,16 +49,13 @@ export default function MobileMenu() {
                 <div className="offcanvase__info--content--social">
                   <p className="title">Follow Us:</p>
                   <div className="social__links">
-                    <a href="#">
+                    <a href="https://www.facebook.com/people/Kashmir-Cambridge-Group-Of-Schools/61560041427806/" target="_blank" rel="noopener noreferrer">
                       <i className="fa-brands fa-facebook"></i>
                     </a>
-                    <a href="#">
+                    <a href="https://www.instagram.com/kashmircambridge?igsh=djhsZjU5cnZiZzEz" target="_blank" rel="noopener noreferrer">
                       <i className="fa-brands fa-instagram"></i>
                     </a>
-                    <a href="#">
-                      <i className="fa-brands fa-linkedin"></i>
-                    </a>
-                    <a href="#">
+                    <a href="https://www.youtube.com/@kashmircambridgegroupofsch-y6h" target="_blank" rel="noopener noreferrer">
                       <i className="fa-brands fa-youtube"></i>
                     </a>
                   </div>
@@ -220,16 +217,13 @@ export default function MobileMenu() {
             <div className="offcanvase__info--content--social">
               <p className="title">Follow Us:</p>
               <div className="social__links">
-                <a href="#">
+                <a href="https://www.facebook.com/people/Kashmir-Cambridge-Group-Of-Schools/61560041427806/" target="_blank" rel="noopener noreferrer">
                   <i className="fa-brands fa-facebook"></i>
                 </a>
-                <a href="#">
+                <a href="https://www.instagram.com/kashmircambridge?igsh=djhsZjU5cnZiZzEz" target="_blank" rel="noopener noreferrer">
                   <i className="fa-brands fa-instagram"></i>
                 </a>
-                <a href="#">
-                  <i className="fa-brands fa-linkedin"></i>
-                </a>
-                <a href="#">
+                <a href="https://www.youtube.com/@kashmircambridgegroupofsch-y6h" target="_blank" rel="noopener noreferrer">
                   <i className="fa-brands fa-youtube"></i>
                 </a>
               </div>

@@ -64,7 +64,7 @@ export default function MapSection() {
                   style={{
                     width: "48px",
                     height: "48px",
-                    background: "linear-gradient(135deg, #4150B6, #283593)",
+                    background: "linear-gradient(135deg, #cba73d, #b8932f)",
                     borderRadius: "12px",
                     display: "flex",
                     alignItems: "center",
@@ -73,7 +73,7 @@ export default function MapSection() {
                   }}
                 >
                   <i
-                    className="fa-light fa-school"
+                    className="fa-solid fa-school"
                     style={{ color: "#fff", fontSize: "20px" }}
                   ></i>
                 </div>
