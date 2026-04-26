@@ -19,10 +19,23 @@ export default function AdmissionPage() {
   return (
     <>
       <Header />
-      <Breadcrumb
-        title="Apply to Kashmir Cambridge Group of Schools"
-        current="Apply Admission"
-      />
+      <div className="pt-20 md:pt-28">
+        <div className="container  px-4 text-center">
+          <div className="max-w-[720px] mt-20 flex flex-col items-center justify-center mx-auto">
+            <span className="inline-block text-sm font-semibold uppercase tracking-widest text-primary-400 mb-3">
+              Join our vibrant community
+            </span>
+            <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6 uppercase tracking-tight">
+              Admissions
+            </h1>
+            <p className="text-lg md:text-xl text-slate-600 leading-relaxed">
+              Begin your child&apos;s journey at Kashmir Cambridge. We offer a
+              seamless admission process designed to help you discover the
+              perfect environment for your child&apos;s growth and success.
+            </p>
+          </div>
+        </div>
+      </div>
 
       {/* admission page content */}
       <div className="rts-page-content rts-section-padding">

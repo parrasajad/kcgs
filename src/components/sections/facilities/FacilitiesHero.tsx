@@ -1,18 +1,19 @@
 export default function FacilitiesHero() {
   return (
-    <div className="rts-campus-life rts-section-padding">
-      <div className="container">
-        <div className="row">
-          <div className="campus-life">
-            <div className="campus-life__content">
-              <h1 className="section-title">Our Facilities</h1>
-              <p className="description w-680">
-                At Kashmir Cambridge, we provide modern infrastructure and
-                well-equipped facilities to ensure a conducive learning
-                environment for all our students.
-              </p>
-            </div>
-          </div>
+    <div className="">
+      <div className="bg-primary-50/50 py-20 md:py-28">
+        <div className="max-w-[900px] mt-20 flex flex-col items-center justify-center mx-auto text-center px-4">
+          <span className="inline-block text-sm font-semibold uppercase tracking-widest text-primary mb-3">
+            Modern Infrastructure
+          </span>
+          <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6 uppercase tracking-tight">
+            Our Facilities
+          </h1>
+          <p className="text-lg md:text-xl text-slate-600 leading-relaxed max-w-[720px] mx-auto text-center">
+            At Kashmir Cambridge, we provide modern infrastructure and
+            well-equipped facilities to ensure a conducive learning environment
+            for all our students.
+          </p>
         </div>
       </div>
     </div>

@@ -2,7 +2,7 @@ import { Icon } from "@iconify/react";
 
 export default function OurStory() {
   return (
-    <div className="rts-section-padding bg-[#f9f9f9]">
+    <div className="rts-section-padding ">
       <div className="container">
         <div className="row align-items-center g-5">
           <div className="col-lg-6">

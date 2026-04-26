@@ -121,27 +121,12 @@ const methods = [
 
 /* ──────────────────────── component ──────────────────────── */
 
+import AcademicsHero from "./AcademicsHero";
+
 export default function AcademicsSection() {
   return (
     <section id="academics" className="overflow-hidden">
-      {/* ── Hero (same style as Facilities / Updates) ── */}
-      <div className="bg-slate-50 py-20 md:py-28">
-        <div className="container mx-auto px-4">
-          <div className="max-w-[680px] mt-30 flex flex-col items-center justify-center mx-auto">
-            <span className="inline-block text-sm font-semibold uppercase tracking-widest text-primary mb-3">
-              From tiny tots to teens
-            </span>
-            <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6 uppercase tracking-tight">
-              Academics
-            </h1>
-            <p className="text-lg md:text-xl text-slate-600 leading-relaxed">
-              We nurture young minds from Pre-Nursery through Grade&nbsp;10 with
-              a balanced curriculum that values knowledge, creativity, and
-              character — all in a warm, supportive environment.
-            </p>
-          </div>
-        </div>
-      </div>
+      <AcademicsHero />
 
       {/* ── Classes Offered ── */}
       <div className="py-14 md:py-22 bg-white">

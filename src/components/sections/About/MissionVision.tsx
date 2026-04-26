@@ -60,7 +60,7 @@ export default function MissionVision() {
           </div>
           {/* Vision */}
           <div className="col-lg-6">
-            <div className="bg-primary-dark rounded-xl p-8 h-full hover:shadow-lg transition-shadow duration-300">
+            <div className="bg-primary-400 rounded-xl p-8 h-full hover:shadow-lg transition-shadow duration-300">
               <div className="w-16 h-16 rounded-full bg-white/15 flex items-center justify-center mb-6">
                 <Icon icon="lucide:eye" className="w-8 h-8 text-white" />
               </div>

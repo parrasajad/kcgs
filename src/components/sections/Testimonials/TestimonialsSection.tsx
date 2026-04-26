@@ -31,10 +31,10 @@ export default function TestimonialsSection() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
           <div className="lg:col-span-5">
             <div className="max-w-md">
-              <h2 className="text-3xl md:text-4xl font-bold text-secondary mb-4">
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
                 Student Feedback
               </h2>
-              <p className="text-slate-500 text-[15px] leading-relaxed mb-10">
+              <p className="text-white text-[15px] leading-relaxed mb-10">
                 Your opinion matters, and by providing feedback, you contribute
                 to the continuous enhancement of our academic programs, support
                 services, and campus life.

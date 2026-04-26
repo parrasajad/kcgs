@@ -108,7 +108,7 @@ export default function NewsSection() {
               <div className="mt-auto">
                 <Link
                   href={`/updates/${featured.id}`}
-                  className="inline-flex items-center gap-2 text-primary font-bold text-sm uppercase tracking-wider hover:gap-3 transition-all duration-300 no-underline"
+                  className="inline-flex items-center gap-2 text-primary-400 font-bold text-sm uppercase tracking-wider hover:gap-3 transition-all duration-300 no-underline"
                 >
                   Read More
                   <span>→</span>

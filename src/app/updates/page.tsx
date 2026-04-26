@@ -12,26 +12,17 @@ export const metadata: Metadata = {
     "Stay updated with the latest announcements, important news, and upcoming events at Kashmir Cambridge Group of Schools.",
 };
 
+import EventsSection from "@/components/sections/Updates/EventsSection";
+
+import UpdatesHero from "@/components/sections/Updates/UpdatesHero";
+
 export default function UpdatesPage() {
   return (
     <>
       <Header />
-      <div className="rts-campus-life rts-section-padding">
-        <div className="container">
-          <div className="row">
-            <div className="campus-life">
-              <div className="campus-life__content">
-                <h1 className="section-title">News &amp; Events</h1>
-                <p className="description w-680">
-                  Stay updated with the latest announcements, important news,
-                  and upcoming events at Kashmir Cambridge Group of Schools.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <UpdatesHero />
       <NewsSection />
+      <EventsSection />
       <Footer />
       <MobileMenu />
     </>

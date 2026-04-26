@@ -73,7 +73,7 @@ export default function Footer() {
                     <li>
                       <Link
                         href="/facilities"
-                        className="text-black hover:text-primary"
+                        className="text-black hover:text-primary-400"
                       >
                         Facilities
                       </Link>
@@ -81,7 +81,7 @@ export default function Footer() {
                     <li>
                       <Link
                         href="/campus-life"
-                        className="text-black hover:text-primary"
+                        className="text-black hover:text-primary-400"
                       >
                         Campus life
                       </Link>
@@ -137,13 +137,15 @@ export default function Footer() {
                   Quick Button
                 </h6>
                 <div className="footer__widget--button">
-                  <Link href="/admission" className="cta__button bg-accent">
+                  <Link
+                    href="/admission"
+                    className="py-3 px-8 text-center bg-primary-400 text-white rounded-full transition-all hover:bg-primary-600 capitalize"
+                  >
                     Applying
                   </Link>
                   <Link
                     href="/contact"
-                    className="cta__button"
-                    style={{ backgroundColor: "#5C5957" }}
+                    className="py-3 px-8 text-center bg-[#5C5957] text-white rounded-full transition-all hover:bg-body/95 capitalize"
                   >
                     Contact Us
                   </Link>

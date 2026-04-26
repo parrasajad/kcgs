@@ -56,7 +56,7 @@ const achievements = [
 export default function Achievements() {
   return (
     <div
-      className="rts-section-padding bg-primary-dark
+      className="rts-section-padding bg-primary-400
      relative overflow-hidden"
     >
       {/* Decorative background elements */}
