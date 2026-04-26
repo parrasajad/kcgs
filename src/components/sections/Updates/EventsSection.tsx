@@ -84,15 +84,6 @@ export default function EventsSection() {
               </div>
 
               {/* Footer Link */}
-              <div className="mt-auto pt-5 border-t border-slate-50">
-                <Link
-                  href={event.link}
-                  className="text-primary-400 font-bold text-sm uppercase tracking-widest hover:text-primary-600 transition-all inline-flex items-center gap-1.5"
-                >
-                  {event.action}
-                  <Icon icon="lucide:arrow-right" className="w-4 h-4" />
-                </Link>
-              </div>
             </div>
           ))}
         </div>

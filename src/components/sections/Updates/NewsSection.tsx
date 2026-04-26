@@ -39,6 +39,20 @@ export default function NewsSection() {
       date: "Mar 05, 2026",
       image: "/assets/images/campus-life/art-culture.webp",
     },
+    {
+      id: 5,
+      category: "Arts",
+      title: "Annual Spring Arts Exhibition Highlights Student Creativity",
+      date: "Mar 05, 2026",
+      image: "/assets/images/campus-life/art-culture.webp",
+    },
+    {
+      id: 5,
+      category: "Arts",
+      title: "Annual Spring Arts Exhibition Highlights Student Creativity",
+      date: "Mar 05, 2026",
+      image: "/assets/images/campus-life/art-culture.webp",
+    },
   ];
 
   const featured = announcements[0];
@@ -57,7 +71,7 @@ export default function NewsSection() {
       <div className="container mx-auto px-4">
         {/* Section header */}
         <div className="flex items-baseline justify-between mb-10">
-          <h2 className="text-2xl md:text-3xl font-bold text-secondary">
+          <h2 className="text-2xl md:text-3xl font-bold text-black">
             News &amp; Announcements
           </h2>
         </div>
@@ -119,45 +133,47 @@ export default function NewsSection() {
 
           {/* Remaining news — compact list */}
           <div className="lg:col-span-7">
-            <div className="flex flex-col h-full">
-              {rest.map((item, idx) => (
-                <Link
-                  key={item.id}
-                  href={`/updates/${item.id}`}
-                  className={`group flex gap-5 items-center py-5 no-underline
-                    ${idx < rest.length - 1 ? "border-b border-slate-100" : ""}
-                  `}
-                >
-                  {/* Thumbnail */}
-                  <div className="shrink-0 w-[120px] h-[90px] rounded-xl overflow-hidden">
-                    <img
-                      src={item.image}
-                      alt={item.title}
-                      className="w-full h-full object-cover transition-transform duration-400 group-hover:scale-105"
-                    />
-                  </div>
-
-                  {/* Content */}
-                  <div className="flex-1 min-w-0">
-                    {/* Category + Date */}
-                    <div className="flex items-center gap-3 mb-1.5">
-                      <span
-                        className={`text-[11px] font-bold uppercase tracking-wider ${categoryColor[item.category] ?? "text-primary-600"}`}
-                      >
-                        {item.category}
-                      </span>
-                      <span className="text-[12px] text-slate-400">
-                        {item.date}
-                      </span>
+            <div className="max-h-[580px] overflow-y-auto pr-4 custom-scrollbar ">
+              <div className="flex flex-col">
+                {rest.map((item, idx) => (
+                  <Link
+                    key={item.id}
+                    href={`/updates/${item.id}`}
+                    className={`group flex gap-5 items-center py-5 no-underline
+                      ${idx < rest.length - 1 ? "border-b border-slate-100" : ""}
+                    `}
+                  >
+                    {/* Thumbnail */}
+                    <div className="shrink-0 w-[120px] h-[90px] rounded-xl overflow-hidden">
+                      <img
+                        src={item.image}
+                        alt={item.title}
+                        className="w-full h-full object-cover transition-transform duration-400 group-hover:scale-105"
+                      />
                     </div>
 
-                    {/* Title */}
-                    <h5 className="font-bold text-[15px] leading-snug text-secondary group-hover:text-primary-400 transition-colors duration-300 line-clamp-2 m-0">
-                      {item.title}
-                    </h5>
-                  </div>
-                </Link>
-              ))}
+                    {/* Content */}
+                    <div className="flex-1 min-w-0">
+                      {/* Category + Date */}
+                      <div className="flex items-center gap-3 mb-1.5">
+                        <span
+                          className={`text-[11px] font-bold uppercase tracking-wider ${categoryColor[item.category] ?? "text-primary-600"}`}
+                        >
+                          {item.category}
+                        </span>
+                        <span className="text-[12px] text-slate-400">
+                          {item.date}
+                        </span>
+                      </div>
+
+                      {/* Title */}
+                      <h5 className="font-bold text-[15px] leading-snug text-secondary group-hover:text-primary-400 transition-colors duration-300 line-clamp-2 m-0">
+                        {item.title}
+                      </h5>
+                    </div>
+                  </Link>
+                ))}
+              </div>
             </div>
           </div>
         </div>
