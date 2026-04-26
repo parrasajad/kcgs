@@ -2,7 +2,6 @@ import Header from "@/components/layout/Header";
 import Breadcrumb from "@/components/layout/Breadcrumb";
 import AdmissionRequirements from "@/components/sections/admission/AdmissionRequirements";
 import ApplicationForm from "@/components/sections/admission/ApplicationForm";
-import ProgramSidebar from "@/components/sections/admission/ProgramSidebar";
 import MobileMenu from "@/components/layout/MobileMenu";
 import Footer from "@/components/layout/Footer";
 
@@ -19,10 +18,10 @@ export default function AdmissionPage() {
   return (
     <>
       <Header />
-      <div className="pt-20 md:pt-28">
+      <div className="pt-20 md:py-28 bg-primary-50/50">
         <div className="container  px-4 text-center">
           <div className="max-w-[720px] mt-20 flex flex-col items-center justify-center mx-auto">
-            <span className="inline-block text-sm font-semibold uppercase tracking-widest text-primary-400 mb-3">
+            <span className="inline-block text-sm font-semibold uppercase tracking-widest text-primary mb-3">
               Join our vibrant community
             </span>
             <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6 uppercase tracking-tight">
@@ -46,11 +45,8 @@ export default function AdmissionPage() {
             </div>
           </div>
           <div className="row sticky-coloum-wrap g-5 mt--45">
-            <div className="col-lg-8">
+            <div className="col-lg-12">
               <ApplicationForm />
-            </div>
-            <div className="col-lg-4 sticky-coloum-item">
-              <ProgramSidebar />
             </div>
           </div>
         </div>

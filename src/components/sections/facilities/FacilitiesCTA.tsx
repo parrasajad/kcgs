@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function FacilitiesCTA() {
   return (
-    <div className="rts-section-padding bg-primary-dark">
+    <div className="rts-section-padding bg-primary-400">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-8 text-center">
