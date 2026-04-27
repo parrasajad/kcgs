@@ -69,27 +69,39 @@ export default function AboutSection() {
           </div>
         </div>
         {/* funfact */}
-        <div className="container rts__pt100">
-          <div className="row justify-content-center">
-            <div className="col-lg-12 rts-funfact v__1">
-              <div className="rts-funfact-wrapper">
-                <div className="single-cta-item">
-                  <h2 className="single-cta-item__title">1000+</h2>
-                  <p>Students Enrolled</p>
-                </div>
-                <div className="single-cta-item">
-                  <h2 className="single-cta-item__title">100+</h2>
-                  <p>Expert Faculty &amp; Staff</p>
-                </div>
-                <div className="single-cta-item">
-                  <h2 className="single-cta-item__title">20+</h2>
-                  <p>Years of Academic Excellence</p>
-                </div>
-                <div className="single-cta-item">
-                  <h2 className="single-cta-item__title">5k+</h2>
-                  <p>Successful Alumni</p>
-                </div>
-              </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-12 md:pt-24 md:pb-20">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 md:gap-8 divide-y sm:divide-y-0 sm:gap-y-12">
+            <div className="flex flex-col items-center justify-center text-center pt-8 sm:pt-0">
+              <h2 className="text-5xl md:text-6xl font-bold text-primary-400 tracking-tight font-sans mb-3">
+                1000+
+              </h2>
+              <p className="text-base md:text-lg  font-medium uppercase tracking-wider font-sans">
+                Students Enrolled
+              </p>
+            </div>
+            <div className="flex flex-col items-center justify-center text-center pt-8 sm:pt-0">
+              <h2 className="text-5xl md:text-6xl font-bold text-primary-400 tracking-tight font-sans mb-3">
+                100+
+              </h2>
+              <p className="text-base md:text-lg  font-medium uppercase tracking-wider font-sans">
+                Expert Faculty
+              </p>
+            </div>
+            <div className="flex flex-col items-center justify-center text-center pt-8 sm:pt-0">
+              <h2 className="text-5xl md:text-6xl font-bold text-primary-400 tracking-tight font-sans mb-3">
+                20+
+              </h2>
+              <p className="text-base md:text-lg text-primary-400 font-medium uppercase tracking-wider font-sans">
+                Years of Excellence
+              </p>
+            </div>
+            <div className="flex flex-col items-center justify-center text-center pt-8 sm:pt-0">
+              <h2 className="text-5xl md:text-6xl font-bold text-primary-400 tracking-tight font-sans mb-3">
+                5k+
+              </h2>
+              <p className="text-base md:text-lg  font-medium uppercase tracking-wider font-sans">
+                Successful Alumni
+              </p>
             </div>
           </div>
         </div>

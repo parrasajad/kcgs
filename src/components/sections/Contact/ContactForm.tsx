@@ -3,8 +3,8 @@
 export default function ContactForm() {
   return (
     <section className="rts-section-padding" style={{ background: "#f8f9ff" }}>
-      <div className="container">
-        <div className="row g-5 align-items-stretch">
+      <div className="container ">
+        <div className="row g-5 align-items-stretch py-10">
           {/* Left — Contact Info Panel */}
           <div className="col-lg-5">
             <div
@@ -12,7 +12,6 @@ export default function ContactForm() {
               style={{
                 background:
                   "linear-gradient(145deg, #b8932f 0%, #cba73d 50%, #9e7f27 100%)",
-                borderRadius: "16px",
                 color: "#fff",
                 minHeight: "520px",
               }}
@@ -46,7 +45,6 @@ export default function ContactForm() {
                       width: "44px",
                       height: "44px",
                       background: "rgba(201,162,39,0.2)",
-                      borderRadius: "10px",
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
@@ -94,7 +92,6 @@ export default function ContactForm() {
                       width: "44px",
                       height: "44px",
                       background: "rgba(201,162,39,0.2)",
-                      borderRadius: "10px",
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
@@ -140,7 +137,6 @@ export default function ContactForm() {
                       width: "44px",
                       height: "44px",
                       background: "rgba(201,162,39,0.2)",
-                      borderRadius: "10px",
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
@@ -186,7 +182,6 @@ export default function ContactForm() {
                       width: "44px",
                       height: "44px",
                       background: "rgba(201,162,39,0.2)",
-                      borderRadius: "10px",
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
@@ -239,8 +234,14 @@ export default function ContactForm() {
                 style={{ borderTop: "1px solid rgba(255,255,255,0.15)" }}
               >
                 {[
-                  { icon: "fa-brands fa-facebook", href: "https://www.facebook.com/people/Kashmir-Cambridge-Group-Of-Schools/61560041427806/" },
-                  { icon: "fa-brands fa-instagram", href: "https://www.instagram.com/kashmircambridge?igsh=djhsZjU5cnZiZzEz" },
+                  {
+                    icon: "fa-brands fa-facebook",
+                    href: "https://www.facebook.com/people/Kashmir-Cambridge-Group-Of-Schools/61560041427806/",
+                  },
+                  {
+                    icon: "fa-brands fa-instagram",
+                    href: "https://www.instagram.com/kashmircambridge?igsh=djhsZjU5cnZiZzEz",
+                  },
                   {
                     icon: "fa-brands fa-youtube",
                     href: "https://www.youtube.com/@kashmircambridgegroupofsch-y6h",
@@ -253,7 +254,6 @@ export default function ContactForm() {
                       width: "38px",
                       height: "38px",
                       background: "rgba(255,255,255,0.12)",
-                      borderRadius: "8px",
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
@@ -276,7 +276,6 @@ export default function ContactForm() {
               className="p-5"
               style={{
                 background: "#fff",
-                borderRadius: "16px",
                 boxShadow: "0 4px 30px rgba(203,167,61,0.15)",
                 height: "100%",
               }}
@@ -508,7 +507,6 @@ export default function ContactForm() {
                         color: "#fff",
                         border: "none",
                         padding: "14px 36px",
-                        borderRadius: "10px",
                         fontSize: "15px",
                         fontWeight: 600,
                         cursor: "pointer",

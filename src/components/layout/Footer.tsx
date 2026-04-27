@@ -5,12 +5,15 @@ export default function Footer() {
   return (
     <>
       {/* footer */}
-      <footer id="footer" className="footer v__1 bg-white text-black">
-        <div className="container">
-          <div className="row g-5">
-            <div className="col-lg-4 col-md-6 col-sm-6">
-              <div className="footer__widget">
-                <div className="footer__widget--logo">
+      <footer
+        id="footer"
+        className="border-t-2 text-black border-grey-400 footer v__1 bg-white pt-16 pb-12 lg:pt-[100px] lg:pb-[100px]"
+      >
+        <div className="container mx-auto px-6 lg:px-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-12 lg:gap-8">
+            <div className="lg:col-span-4 flex flex-col items-start text-left">
+              <div className="footer__widget w-full">
+                <div className="footer__widget--logo mb-6 flex justify-start">
                   <Link href="/">
                     <Image
                       src="/assets/images/header/kc-logo-black.svg"
@@ -20,12 +23,12 @@ export default function Footer() {
                     />
                   </Link>
                 </div>
-                <p className="footer__widget--description text-black">
+                <p className="footer__widget--description text-left text-black mb-6 max-w-[320px]">
                   We are passionate education dedicated to providing
                   high-quality resources learners all backgrounds.
                 </p>
-                <div className="footer__widget--social">
-                  <ul className="social">
+                <div className="footer__widget--social flex justify-start">
+                  <ul className="social flex gap-3">
                     <li className="social__link">
                       <a
                         href="https://www.facebook.com/people/Kashmir-Cambridge-Group-Of-Schools/61560041427806/"
@@ -57,15 +60,15 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 col-sm-6">
+            <div className="lg:col-span-3 flex flex-col items-start text-left">
               <div className="footer__widget">
-                <h6 className="footer__widget--title text-black">Our Campus</h6>
+                <h6 className="text-black font-semibold mb-6">Our Campus</h6>
                 <div className="footer__widget--menu">
-                  <ul>
+                  <ul className="flex flex-col gap-3">
                     <li>
                       <Link
                         href="/academics"
-                        className="text-black hover:text-primary"
+                        className="text-black hover:text-primary transition-colors"
                       >
                         Academics
                       </Link>
@@ -73,7 +76,7 @@ export default function Footer() {
                     <li>
                       <Link
                         href="/facilities"
-                        className="text-black hover:text-primary-400"
+                        className="text-black hover:text-primary-400 transition-colors"
                       >
                         Facilities
                       </Link>
@@ -81,7 +84,7 @@ export default function Footer() {
                     <li>
                       <Link
                         href="/campus-life"
-                        className="text-black hover:text-primary-400"
+                        className="text-black hover:text-primary-400 transition-colors"
                       >
                         Campus life
                       </Link>
@@ -89,7 +92,7 @@ export default function Footer() {
                     <li>
                       <Link
                         href="/updates"
-                        className="text-black hover:text-primary-400"
+                        className="text-black hover:text-primary-400 transition-colors"
                       >
                         Updates & Events
                       </Link>
@@ -98,15 +101,15 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-2 col-md-6 col-sm-6">
+            <div className="lg:col-span-2 flex flex-col items-start text-left">
               <div className="footer__widget">
-                <h6 className="footer__widget--title text-black">Explore</h6>
+                <h6 className="text-black font-semibold mb-6">Explore</h6>
                 <div className="footer__widget--menu">
-                  <ul>
+                  <ul className="flex flex-col gap-3">
                     <li>
                       <Link
                         href="/about"
-                        className="text-black hover:text-primary-400"
+                        className="text-black hover:text-primary-400 transition-colors"
                       >
                         About
                       </Link>
@@ -114,7 +117,7 @@ export default function Footer() {
                     <li>
                       <Link
                         href="/admission"
-                        className="text-black hover:text-primary-400"
+                        className="text-black hover:text-primary-400 transition-colors"
                       >
                         Admission
                       </Link>
@@ -122,7 +125,7 @@ export default function Footer() {
                     <li>
                       <Link
                         href="/contact"
-                        className="text-black hover:text-primary-400"
+                        className="text-black hover:text-primary-400 transition-colors"
                       >
                         Contact Us
                       </Link>
@@ -131,21 +134,19 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 col-sm-6">
-              <div className="footer__widget">
-                <h6 className="footer__widget--title text-black">
-                  Quick Button
-                </h6>
-                <div className="footer__widget--button">
+            <div className="lg:col-span-3 flex flex-col items-start text-left">
+              <div className="footer__widget w-full">
+                <h6 className="text-black font-semibold mb-6">Quick Button</h6>
+                <div className="footer__widget--button flex flex-col gap-4 w-full sm:max-w-[200px]">
                   <Link
                     href="/admission"
-                    className="py-3 px-8 text-center bg-primary-400 text-white rounded-full transition-all hover:bg-primary-600 capitalize"
+                    className="py-3 px-8 text-center bg-primary-400 text-white rounded-full transition-all hover:bg-primary-600 capitalize block w-full"
                   >
                     Applying
                   </Link>
                   <Link
                     href="/contact"
-                    className="py-3 px-8 text-center bg-[#5C5957] text-white rounded-full transition-all hover:bg-body/95 capitalize"
+                    className="py-3 px-8 text-center bg-secondary text-white rounded-full transition-all hover:bg-secondary/90 capitalize block w-full"
                   >
                     Contact Us
                   </Link>
@@ -164,11 +165,11 @@ export default function Footer() {
             <div className="col-sm-12">
               <div className="copyright__wrapper">
                 <p className="text-black">
-                  Copyright &copy; <span id="year"></span> All Rights Reserved
-                  by{" "}
-                  <a href="https://leeep.in" className="text-primary">
-                    Kashmir Cambridge
+                  Powered by
+                  <a href="https://leeep.in" className=" mr-2 text-primary">
+                    &nbsp; Leeep
                   </a>
+                  &copy; All Rights Reserved
                 </p>
               </div>
             </div>

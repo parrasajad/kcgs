@@ -1,28 +1,19 @@
-import Image from "next/image";
-
 export default function CampusLifeOverview() {
   return (
-    <div className="rts-campus-life rts-section-padding">
-      <div className="container">
-        <div className="row">
-          <div className="campus-life">
-            <div className="campus-life__content">
-              <h1 className="section-title">Campus Life</h1>
-              <p className="description w-680">
-                Our thriving residential campus is home to a community of
-                creative and accomplished people from around the world.
-              </p>
-              <div className="w-full h-[800px] rounded-lg overflow-hidden">
-                <Image
-                  src="/assets/images/campus-life/campus-life-hero.webp"
-                  className="w-full h-full object-contain "
-                  width={1920}
-                  height={1480}
-                  alt="Campus Life"
-                />
-              </div>
-            </div>
-          </div>
+    <div className="">
+      <div className="bg-primary-50/50 py-20 md:py-28">
+        <div className="max-w-[900px] mt-20 flex flex-col items-center justify-center mx-auto text-center px-4">
+          <span className="inline-block text-sm font-semibold uppercase tracking-widest text-primary mb-3">
+            Student Experience
+          </span>
+          <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6 uppercase tracking-tight">
+            Campus Life
+          </h1>
+          <p className="text-lg md:text-xl text-slate-600 leading-relaxed max-w-[720px] mx-auto text-center">
+            At Kashmir Cambridge, our vibrant campus life fosters creativity, 
+            teamwork, and personal growth. Experience a dynamic environment 
+            where learning extends far beyond the classroom.
+          </p>
         </div>
       </div>
     </div>

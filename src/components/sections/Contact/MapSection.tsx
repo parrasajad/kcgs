@@ -171,7 +171,7 @@ export default function MapSection() {
                 href="https://www.google.com/maps/place/Kashmir+Cambridge+School/@33.7786874,74.8523921,17z"
                 target="_blank"
                 rel="noreferrer"
-                className="rts-theme-btn btn-arrow"
+                className="rts-theme-btn btn-arrow bg-primary-400"
                 style={{
                   display: "inline-flex",
                   alignItems: "center",
